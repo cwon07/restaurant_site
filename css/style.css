@@ -237,12 +237,12 @@ a {
 
 /* START: popular media queries */
 @media screen and (max-width: 550px) {
-  .popular-foods {
+  .popular-items {
     padding: 64px 32px;
   }
 
-  .popular-foods__card,
-  .popular-foods__card.active-card {
+  .popular-items__card,
+  .popular-items__card.active-card {
     min-width: 100%;
   }
 }
@@ -290,7 +290,7 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending-drinks {
     flex-direction: column-reverse;
   }
 
